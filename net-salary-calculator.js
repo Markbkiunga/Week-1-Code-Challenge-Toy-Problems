@@ -1,8 +1,12 @@
-let basicSalary = 50000;
+//Enter your basic salary into the basicSalary variable below
+let basicSalary = parseFloat(prompt("Enter your basic salary"));
 console.log("Basic Salary: " + basicSalary);
-let benefits = 5000;
+//Input your benefits into the benefits variable below
+let benefits = parseFloat(
+  prompt("Enter your benefits into the benefits variable")
+);
 console.log("Benefits: " + benefits);
-let grossSalary = basicSalary + benefits;
+let grossSalary = basicSalary + benefits; //calculates gross salary which is the taxable pay
 console.log("Gross Salary: " + grossSalary);
 
 function calculatePAYE() {

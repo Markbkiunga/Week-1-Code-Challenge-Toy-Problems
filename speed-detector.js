@@ -1,5 +1,5 @@
 //Enter the car speed into the variable below
-let carSpeed = 135;
+let carSpeed = parseInt(prompt("Enter the car speed"));
 if (carSpeed < 70) {
   console.log("Ok");
 } else {
